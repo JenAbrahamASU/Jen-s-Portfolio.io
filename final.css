@@ -1,0 +1,28 @@
+/*For the background color and text specifications*/
+.bodycol {background-color: #330c05;}
+.bg {background-color: #731111;}
+@font-face {font-family: Quinngothic; src: url(./Quinngothic-Wyy1O.ttf);}
+.body {font-family: Quinngothic; color: #ac9280;font-size: 2vh;}
+/*For the heights of title placeholders: variants and options*/
+.size {width: 47vh; height: 100vh;}
+.sizee {width: 102vh;height: 100vh;}
+.small {width: 100vh; height: 40vh;}
+.hundred{width: 100vh; height: 100vh;}
+.sixty{width:100vh; height:60vh;}
+/*Start of Advanced CSS exploration: Change image on hover*/
+.image-container {position: relative; width: 300px;}
+.image-container img {width: 100%; display: block;}
+.image-container .hover-image {position: absolute; top: 0; left: 0; opacity: 0; transition: opacity 0.5s ease;}
+.image-container:hover .hover-image {opacity: 1;}
+.image-container:hover .default-image {opacity: 0;}
+/*End of CSS exploration: Change image on hover*/
+/*Start of advanced CSS exploration: zoom image */
+.zoom { transition: transform .2s;}
+.zoom:hover {transform: scale(1.5);}
+/*End of advanced CSS exploration: zoom image*/
+.marginr {margin-right: 22px;}
+.marginl {margin-left: 12px;}
+.tagheight {height: 20vh;}
+.img {width: 487px; height: 450px;}
+.margin {margin: 0cap;}
+.marginn {margin-left: 20px; margin-right: 20px;}
